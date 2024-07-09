@@ -1,0 +1,163 @@
+/* style fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.banner-section-container{
+   min-width: 1140px;
+    height: 650px;
+    /*border: 2px solid red;*/
+  
+    background-color: rgba(229, 84, 115, 0.1);
+}
+.banner-text-container{
+    width: 50%;
+   height: 650px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;  
+}  
+.banner-text-container button{
+    margin-right: 460px;
+    width: 110px;
+    height: 30px;
+    background-color: rgb(229, 84, 115);
+    border: none;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.banner-image-container{
+    width: 60%;
+   height: 650px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.banner-image-container img{
+    width: 60%;
+   height: 650px;
+}
+
+.banner-container{
+    display: flex;
+   /* border: 2px solid red;*/
+    width: 90%;
+    margin: 0 auto;
+}
+.picture-container{
+    width: 90%;
+    margin: 0 auto;
+    height: 650px;
+    
+    margin-top: 140px;
+}
+.picture-heading-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.picture-img-container{
+    display: flex;
+    gap:20px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.first-img, .second-img, .third-img{
+    width: 33%;
+    height: 530px;
+  /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% 50% 0 0;
+}
+#first{
+     background-color: rgba(167, 33, 98, 0.15);
+}
+#second{
+    background-color: rgba(5, 151, 160, 0.15);
+} 
+#third{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+.instagram-section-container{
+    width: 90%;
+    height: 950px;
+    margin: 0 auto;
+    margin-top: 140px;
+   
+}
+.instagram-text-container{
+    height: 132px;
+   
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.first-insta-image{
+    width: 342px ;
+    height: 396px;
+    
+}
+
+.first-insta-image img{
+    width: 90%;
+    height: 90%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.instagram-image-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+} 
+.super-deals-container{
+    width: 90%;
+    height: 449px;
+    margin: 0 auto;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../asset/Rectangle\ 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.deals-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.deals-content p{
+    margin-top: 30px; 
+    margin-bottom: 40px;
+}
+#box{
+    width: 400px;
+    height: 34px;
+    border: none;
+    border-radius: 2px;
+   
+    box-shadow: black;
+
+}
+#btn{
+    width: 100px;
+    height: 34px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(229, 84, 115);
+}
